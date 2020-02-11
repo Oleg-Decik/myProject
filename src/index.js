@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import MainBlock from "./MainBlock/mainBlock";
 
-ReactDOM.render(<App/>, document.getElementById('root'));
+
+ReactDOM.render(<MainBlock/>, document.getElementById('root'));
+
+
 

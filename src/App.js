@@ -21,7 +21,7 @@ function App() {
 }
 
 function hello() {
-    ReactDOM.render(<Congrats></Congrats>, document.getElementById('hello'));
+    ReactDOM.render(<Congrats/>, document.getElementById('app'));
 }
 
 function newData(repeat = 0) {
